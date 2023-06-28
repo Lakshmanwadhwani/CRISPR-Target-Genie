@@ -1,3 +1,5 @@
+(![Target Genie](/images/icon.png))
+
 # CRISPR-Target-Genie
 CRISPR Target Genie 🧬
 
