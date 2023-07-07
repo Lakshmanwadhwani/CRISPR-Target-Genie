@@ -25,4 +25,4 @@ jobs:
         
     - name: Run tests
       run: |
-        python -m unittest test_crispr_scoring_module.py
+        python -m unittest scripts/test_crispr_scoring_module.py
