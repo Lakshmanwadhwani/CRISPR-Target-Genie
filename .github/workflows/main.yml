@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
@@ -20,16 +20,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y xvfb tk
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-
-    - name: Run xvfb
-      run: |
-        Xvfb :99 &
-        export DISPLAY=:99
-
+        
     - name: Run tests
       run: |
-        target_genie_crispr_GUI
+        python -m unittest test_crispr_scoring_module.py
