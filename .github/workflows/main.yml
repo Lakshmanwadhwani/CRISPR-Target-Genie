@@ -20,7 +20,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo apt-get install -y xvfb
+        sudo apt-get update
+        sudo apt-get install -y xvfb tk
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
