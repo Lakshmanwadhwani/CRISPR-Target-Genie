@@ -1,5 +1,5 @@
 from Bio import SeqIO
-from Bio.SeqUtils import gc_fraction
+from Bio.SeqUtils import GC
 
 
 class CRISPRScoringModule:
@@ -23,7 +23,7 @@ class CRISPRScoringModule:
 
     def score_target_sites(self):
         for target_site in self.target_sites:
-            target_site['score'] = gc_fraction(target_site['sequence'])
+            target_site['score'] = GC(target_site['sequence'])
 
     def write_results_to_file(self, output_filename):
         with open(output_filename, 'w', newline='\n') as output_file:
