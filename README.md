@@ -1,3 +1,4 @@
+![Python application test with Github Actions](https://github.com/lakshmanwadhwani/CRISPR-Target-Genie/actions/workflows/main.yml/badge.svg)
 
 ![Target Genie Image](./Target%20Genie%20image.png)
 
