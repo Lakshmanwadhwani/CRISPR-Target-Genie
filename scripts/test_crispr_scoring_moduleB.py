@@ -1,7 +1,7 @@
 import os
 import tempfile
 import unittest
-from crispr_scoring_moduleA import CRISPRScoringModule, validate_pam_sequence
+from .crispr_scoring_moduleA import CRISPRScoringModule, validate_pam_sequence
 
 class TestCRISPRScoringModule(unittest.TestCase):
 
