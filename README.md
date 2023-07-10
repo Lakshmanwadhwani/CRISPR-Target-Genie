@@ -7,7 +7,11 @@
 # CRISPR-Target-Genie
 CRISPR Target Genie 🧬
 
-CRISPR Target Genie is a software tool I designed to aid researchers in identifying potential target sequences in cancer genes for CRISPR/Cas9 editing. The tool accepts genomic sequences of cancer genes as input and outputs potential CRISPR target sites, which can be used for gene knockout or modification. CRISPR Target Genie utilizes BioPython for parsing various genomic data formats, pattern finding, and basic sequence manipulation.
+CRISPR Target Genie is a software tool I designed to assist researchers in identifying potential target sequences in genes for CRISPR/Cas9 editing. The tool takes genomic sequences of cancer of any other gene of interest as input (fasta format) and outputs potential CRISPR target sites. These target sites adhere to the canonical PAM sequence, which is 5'-NGG-3', where "N" represents any nucleobase followed by two guanine ("G") nucleobases.
+
+By utilizing  various modified BioPython modules, CRISPR Target Genie performs tasks such as parsing various genomic data formats, pattern finding, and basic sequence manipulation. The inspiration behind the tool's primary purpose was to aid in gene knockout or modification through CRISPR/Cas9 editing by providing researchers with a list of potential target sites within the inputted cancer genes.
+
+By using CRISPR Target Genie, researchers can efficiently identify target sequences that meet the necessary criteria for successful gene editing, streamlining the process of selecting suitable sites for CRISPR/Cas9 experiments.
 
 ## Features 🚀
 - Ability to input a list of known cancer-related genes or their genomic sequences.
