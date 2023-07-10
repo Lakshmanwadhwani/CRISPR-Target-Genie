@@ -1,4 +1,4 @@
-![Anaconda](https://img.shields.io/badge/Anaconda-47dfd3)![Visual Studio Code](https://img.shields.io/badge/VisualStudioCode-cbf808)![Powershell](https://img.shields.io/badge/Powershell-e52b50)![Biopython](https://img.shields.io/badge/Biopython-b470ff)
+![Anaconda](https://img.shields.io/badge/Anaconda-47dfd3)![Visual Studio Code](https://img.shields.io/badge/VisualStudioCode-cbf808)![Powershell](https://img.shields.io/badge/Powershell-c2bdc9)![Biopython](https://img.shields.io/badge/Biopython-b470ff)
 
 ![Python application test with Github Actions](https://github.com/lakshmanwadhwani/CRISPR-Target-Genie/actions/workflows/main.yml/badge.svg)
 
